@@ -6,8 +6,8 @@ export class Child extends Component{
   }
   render(){
     return (
-      <div>
-        <div className="menu-child" onClick={this.alert.bind(this)}>{this.props.name}</div>
+      <div className="menu-child">
+        <span onClick={this.alert.bind(this)}>{this.props.name}</span>
       </div>
     )
   }
